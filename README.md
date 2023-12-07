@@ -1,14 +1,12 @@
-<p align="right">English | <a href="./README_CN.md">简体中文</a></p>  
+<div align="right">English | <a href="./README_CN.md">简体中文</a></div>
 
-<p align="center">
-  <img src="docs/figs/logo.png" align="center" width="34%">
-    
-</p>  
-  
+<div align="center">
+    <img src="docs/figs/logo.png" align="center" width="34%">
+</div>
+
 <div align="center">
     <h2><strong>FRNet: Frustum-Range Networks for Scalable LiDAR Segmentation</strong></h2>
 </div>
-
 
 <div align="center">
     <a href="https://scholar.google.com/citations?user=1UHZkksAAAAJ&hl" target='_blank'>Xiang Xu</a><sup>1</sup>,&nbsp;&nbsp;
@@ -28,7 +26,7 @@
     <a href="" target="_blank">
         <img src="https://img.shields.io/badge/Paper-%F0%9F%93%83-purple">
     </a>
-    <a href="" target='_blank'>
+    <a href="https://xiangxu-0103.github.io/FRNet" target='_blank'>
         <img src="https://img.shields.io/badge/Project-%F0%9F%94%97-violet">
     </a>
     <a href="https://youtu.be/PvmnaMKnZrc" target='_blank'>
@@ -49,25 +47,22 @@
 **FRNet** achieves an appealing balance between accuracy and efficiency, enabling real-time LiDAR segmentation.
 
 | <img src="docs/figs/teaser1.png" align="center" width="99%"> | <img src="docs/figs/teaser2.png" align="center" width="99%"> |
-| :-----------------------------------------: | :-----------------------------------------: |
-| Speed *vs.* Accuracy | Speed *vs.* Robustness |
+| :----------------------------------------------------------: | :----------------------------------------------------------: |
+|                     Speed *vs.* Accuracy                     |                    Speed *vs.* Robustness                    |
 
 Visit our [project page](https://xiangxu-0103.github.io/FRNet) to explore more examples. :oncoming_automobile:
-
 
 ## Updates
 
 - \[2023.12\] - We provide trained weights on SemanticKITTI and nuScenes. The checkpoints can be downloaded from [here](https://drive.google.com/drive/folders/173ZIzO7HOSE2JQ7lz_Ikk4O85Mau68el?usp=sharing).
 - \[2023.12\] - Our paper is available on [arXiv](<>), and the code is publicly available.
 
-
 ## :movie_camera: Video Demo
 
-|                   Demo 1                    |                   Demo 2                    |                   Demo 3                    |
-| :-----------------------------------------: | :-----------------------------------------: | :-----------------------------------------: |
-| <img src="docs/figs/demo1.png" align="center" width="100%"> | <img src="docs/figs/demo2.png" align="center" width="100%"> | <img src="docs/figs/demo3.png" align="center" width="100%"> | 
-| [[Link](https://youtu.be/PvmnaMKnZrc)] | [[Link](https://youtu.be/4m5sG-XsYgw)] | [[Link](https://youtu.be/-aM_NaZLP8M)] |
-
+|                           Demo 1                            |                           Demo 2                            |                           Demo 3                            |
+| :---------------------------------------------------------: | :---------------------------------------------------------: | :---------------------------------------------------------: |
+| <img src="docs/figs/demo1.png" align="center" width="100%"> | <img src="docs/figs/demo2.png" align="center" width="100%"> | <img src="docs/figs/demo3.png" align="center" width="100%"> |
+|          \[[Link](https://youtu.be/PvmnaMKnZrc)\]           |          \[[Link](https://youtu.be/4m5sG-XsYgw)\]           |          \[[Link](https://youtu.be/-aM_NaZLP8M)\]           |
 
 ## Outline
 
@@ -79,12 +74,9 @@ Visit our [project page](https://xiangxu-0103.github.io/FRNet) to explore more e
 - [Citation](#citation)
 - [Acknowledgements](#acknowledgements)
 
-
-
 ## :gear: Installation
 
 Please refer to [INSTALL.md](./docs/INSTALL.md) for the installation details.
-
 
 ## :hotsprings: Data Preparation
 
@@ -98,9 +90,8 @@ Please refer to [GET_STARTED.md](./docs/GET_STARTED.md) to learn more usage of t
 
 ### Framework Overview
 
-|<img src="docs/figs/framework.png" align="center" width="99%">|
-|:-:|
-
+| <img src="docs/figs/framework.png" align="center" width="99%"> |
+| :------------------------------------------------------------: |
 
 ### Comparisons to State of the Arts
 
@@ -212,17 +203,17 @@ Please refer to [GET_STARTED.md](./docs/GET_STARTED.md) to learn more usage of t
 </table>
 
 **:memo: Note**:
+
 - **mCE (the lower the better)**: The *average corruption error* (in percentage) of a candidate model compared to the baseline model, which is calculated among all corruption types across three severity levels.
 - **mRR (the higher the better)**: The *average resilience rate* (in percentage) of a candidate model compared to its "clean" performance, which is calculated among all corruption types across three severity levels.
 
 ### :round_pushpin: Pre-Trained Checkpoints
-We provide the trained models for SemanticKITTI and nuScenes. The checkpoints can be downloaded from [here](https://drive.google.com/drive/folders/173ZIzO7HOSE2JQ7lz_Ikk4O85Mau68el?usp=sharing).
 
+We provide the trained models for SemanticKITTI and nuScenes. The checkpoints can be downloaded from [here](https://drive.google.com/drive/folders/173ZIzO7HOSE2JQ7lz_Ikk4O85Mau68el?usp=sharing).
 
 ## License
 
 This work is under the [Apache 2.0 license](LICENSE).
-
 
 ## Citation
 
@@ -237,13 +228,11 @@ If you find this work helpful, please kindly consider citing our paper:
 }
 ```
 
-
 ## Acknowledgements
 
 This work is developed based on the [MMDetection3D](https://github.com/open-mmlab/mmdetection3d) codebase.
-><img src="https://github.com/open-mmlab/mmdetection3d/blob/main/resources/mmdet3d-logo.png" width="30%"/><br>
+
+> <img src="https://github.com/open-mmlab/mmdetection3d/blob/main/resources/mmdet3d-logo.png" width="30%"/><br>
 > MMDetection3D is an open-source object detection toolbox based on PyTorch, towards the next-generation platform for general 3D perception. It is a part of the OpenMMLab project developed by MMLab.
 
-
 We acknowledge the use of the following public resources during the course of this work: <sup>1</sup>[SemanticKITTI](http://www.semantic-kitti.org), <sup>2</sup>[SemanticKITTI-API](https://github.com/PRBonn/semantic-kitti-api), <sup>3</sup>[nuScenes](https://www.nuscenes.org/nuscenes), <sup>4</sup>[nuScenes-devkit](https://github.com/nutonomy/nuscenes-devkit), <sup>5</sup>[ScribbleKITTI](https://github.com/ouenal/scribblekitti), <sup>6</sup>[SemanticPOSS](http://www.poss.pku.edu.cn/semanticposs.html), <sup>7</sup>[SemanticPOSS-API](https://github.com/Theia-4869/semantic-poss-api), <sup>8</sup>[Robo3D](https://github.com/ldkong1205/Robo3D), <sup>9</sup>[PCSeg](https://github.com/PJLab-ADG/PCSeg), <sup>10</sup>[SalsaNext](https://github.com/TiagoCortinhal/SalsaNext), <sup>11</sup>[FIDNet](https://github.com/placeforyiming/IROS21-FIDNet-SemanticKITTI), <sup>12</sup>[CENet](https://github.com/huixiancheng/CENet), <sup>13</sup>[RangeViT](https://github.com/valeoai/rangevit), <sup>14</sup>[SphereFormer](https://github.com/dvlab-research/SphereFormer), <sup>15</sup>[2DPASS](https://github.com/yanx27/2DPASS), <sup>16</sup>[Cylinder3D](https://github.com/xinge008/Cylinder3D), <sup>17</sup>[SPVNAS](https://github.com/mit-han-lab/spvnas), <sup>18</sup>[KPConv](https://github.com/HuguesTHOMAS/KPConv-PyTorch), and <sup>19</sup>[LaserMix](https://github.com/ldkong1205/LaserMix). :heart_decoration:
-
