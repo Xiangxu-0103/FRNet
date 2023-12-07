@@ -1,7 +1,7 @@
 <p align="right">English | <a href="./README_CN.md">简体中文</a></p>  
 
 <p align="center">
-  <img src="docs/figs/logo.png" align="center" width="28%">
+  <img src="docs/figs/logo.png" align="center" width="35%">
     
 </p>  
   
@@ -44,18 +44,24 @@
 
 ## About
 
-**FRNet** is a simple yet efficient network for LiDAR segmentation. It consists of three key components: 1) Frustum Feature Encoder; 2) Frustum-Point Fusion Module; and 3) Head Fusion Module. Moreover, we introduce two novel argumentations, FrustumMix and RangeInterpolation, to enrich the point cloud scenes. FRNet achieves an appealing balance between accuracy and efficiency.
+**FRNet** is a simple yet efficient network for LiDAR segmentation. It consists of three key components: 1) Frustum Feature Encoder; 2) Frustum-Point Fusion Module; and 3) Head Fusion Module. Moreover, we introduce two novel argumentations, FrustumMix and RangeInterpolation, to enrich the point cloud scenes.
+
+**FRNet** achieves an appealing balance between accuracy and efficiency, enabling real-time LiDAR segmentation.
 
 | <img src="docs/figs/teaser1.png" align="center" width="99%"> | <img src="docs/figs/teaser2.png" align="center" width="99%"> |
 | :-----------------------------------------: | :-----------------------------------------: |
 | Speed *vs.* Accuracy | Speed *vs.* Robustness |
 
+Visit our [project page](https://xiangxu-0103.github.io/FRNet) to explore more examples. :oncoming_automobile:
+
+
 ## Updates
 
+- \[2023.12\] - We provide trained weights on SemanticKITTI and nuScenes. The checkpoints can be downloaded from [here](https://drive.google.com/drive/folders/173ZIzO7HOSE2JQ7lz_Ikk4O85Mau68el?usp=sharing).
 - \[2023.12\] - Our paper is available on [arXiv](<>), and the code is publicly available.
 
 
-## Video Demo
+## :movie_camera: Video Demo
 
 |                   Demo 1                    |                   Demo 2                    |                   Demo 3                    |
 | :-----------------------------------------: | :-----------------------------------------: | :-----------------------------------------: |
@@ -64,30 +70,30 @@
 
 ## Outline
 
-- [Installation](#installation)
-- [Data Preparation](#data-preparation)
-- [Getting Started](#getting-started)
-- [Main Results](#main-results)
+- [Installation](#gear-installation)
+- [Data Preparation](#hotsprings-data-preparation)
+- [Getting Started](#rocket-getting-started)
+- [Main Results](#bar-chart-main-results)
 - [License](#license)
-- [Acknowledgement](#acknowledgement)
+- [Acknowledgements](#acknowledgement)
 - [Citation](#citation)
 
 
 
-## Installation
+## :gear: Installation
 
 Please refer to [INSTALL.md](./docs/INSTALL.md) for the installation details.
 
 
-## Data Preparation
+## :hotsprings: Data Preparation
 
 Please refer to [DATA_PREPARE.md](./docs/DATA_PREPARE.md) for the details to prepare the <sup>1</sup>[SemanticKITTI](http://www.semantic-kitti.org) and <sup>2</sup>[nuScenes](https://www.nuscenes.org) datasets.
 
-## Getting Started
+## :rocket: Getting Started
 
 Please refer to [GET_STARTED.md](./docs/GET_STARTED.md) to learn more usage of this codebase.
 
-## Main Results
+## :bar_chart: Main Results
 
 ### Framework Overview
 
@@ -208,7 +214,7 @@ Please refer to [GET_STARTED.md](./docs/GET_STARTED.md) to learn more usage of t
 - **mCE (the lower the better)**: The *average corruption error* (in percentage) of a candidate model compared to the baseline model, which is calculated among all corruption types across three severity levels.
 - **mRR (the higher the better)**: The *average resilience rate* (in percentage) of a candidate model compared to its "clean" performance, which is calculated among all corruption types across three severity levels.
 
-### Pre-trained Checkpoints
+### :round_pushpin: Pre-Trained Checkpoints
 We provide the trained models for SemanticKITTI and nuScenes. The checkpoints can be downloaded from [here](https://drive.google.com/drive/folders/173ZIzO7HOSE2JQ7lz_Ikk4O85Mau68el?usp=sharing).
 
 
@@ -218,7 +224,7 @@ We provide the trained models for SemanticKITTI and nuScenes. The checkpoints ca
 This work is under the [Apache 2.0 license](LICENSE).
 
 
-## Acknowledgement
+## Acknowledgements
 
 This work is developed based on the [MMDetection3D](https://github.com/open-mmlab/mmdetection3d) codebase.
 ><img src="https://github.com/open-mmlab/mmdetection3d/blob/main/resources/mmdet3d-logo.png" width="30%"/><br>
