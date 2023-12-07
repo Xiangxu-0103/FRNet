@@ -1,0 +1,11 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# cython generated cpp
+data
+
+# custom
+work_dirs/
+
+# Pytorch
+*.pth
