@@ -1,7 +1,7 @@
 <p align="right">English | <a href="./README_CN.md">简体中文</a></p>  
 
 <p align="center">
-  <img src="docs/figs/logo.png" align="center" width="36%">
+  <img src="docs/figs/logo.png" align="center" width="34%">
     
 </p>  
   
@@ -74,10 +74,10 @@ Visit our [project page](https://xiangxu-0103.github.io/FRNet) to explore more e
 - [Installation](#gear-installation)
 - [Data Preparation](#hotsprings-data-preparation)
 - [Getting Started](#rocket-getting-started)
-- [Main Results](#bar-chart-main-results)
+- [Main Results](#bar_chart-main-results)
 - [License](#license)
-- [Acknowledgements](#acknowledgement)
 - [Citation](#citation)
+- [Acknowledgements](#acknowledgements)
 
 
 
@@ -219,10 +219,23 @@ Please refer to [GET_STARTED.md](./docs/GET_STARTED.md) to learn more usage of t
 We provide the trained models for SemanticKITTI and nuScenes. The checkpoints can be downloaded from [here](https://drive.google.com/drive/folders/173ZIzO7HOSE2JQ7lz_Ikk4O85Mau68el?usp=sharing).
 
 
-
 ## License
 
 This work is under the [Apache 2.0 license](LICENSE).
+
+
+## Citation
+
+If you find this work helpful, please kindly consider citing our paper:
+
+```bibtex
+@article{xu2023frnet,
+    author = {Xiang Xu and Lingdong Kong and Hui Shuai and Qingshan Liu},
+    title = {FRNet: Frustum-Range Networks for Scalable LiDAR Segmentation},
+    journal = {arXiv preprint arXiv:2312.},
+    year = {2023},
+}
+```
 
 
 ## Acknowledgements
@@ -232,12 +245,5 @@ This work is developed based on the [MMDetection3D](https://github.com/open-mmla
 > MMDetection3D is an open-source object detection toolbox based on PyTorch, towards the next-generation platform for general 3D perception. It is a part of the OpenMMLab project developed by MMLab.
 
 
-We acknowledge the use of the following public resources during the course of this work: <sup>1</sup>[SemanticKITTI](http://www.semantic-kitti.org), <sup>2</sup>[SemanticKITTI-API](https://github.com/PRBonn/semantic-kitti-api), <sup>3</sup>[nuScenes](https://www.nuscenes.org/nuscenes), <sup>4</sup>[nuScenes-devkit](https://github.com/nutonomy/nuscenes-devkit), <sup>5</sup>[ScribbleKITTI](https://github.com/ouenal/scribblekitti), <sup>6</sup>[SemanticPOSS](http://www.poss.pku.edu.cn/semanticposs.html), <sup>7</sup>[SemanticPOSS-API](https://github.com/Theia-4869/semantic-poss-api), <sup>8</sup>[Robo3D](https://github.com/ldkong1205/Robo3D), <sup>9</sup>[PCSeg](https://github.com/PJLab-ADG/PCSeg), <sup>10</sup>[SalsaNext](https://github.com/TiagoCortinhal/SalsaNext), <sup>11</sup>[FIDNet](https://github.com/placeforyiming/IROS21-FIDNet-SemanticKITTI), <sup>12</sup>[CENet](https://github.com/huixiancheng/CENet), <sup>13</sup>[RangeViT](https://github.com/valeoai/rangevit), <sup>14</sup>[SphereFormer](https://github.com/dvlab-research/SphereFormer), <sup>15</sup>[2DPASS](https://github.com/yanx27/2DPASS), <sup>16</sup>[Cylinder3D](https://github.com/xinge008/Cylinder3D), <sup>17</sup>[SPVNAS](https://github.com/mit-han-lab/spvnas), <sup>18</sup>[KPConv](https://github.com/HuguesTHOMAS/KPConv-PyTorch), and <sup>19</sup>[LaserMix](https://github.com/ldkong1205/LaserMix).
+We acknowledge the use of the following public resources during the course of this work: <sup>1</sup>[SemanticKITTI](http://www.semantic-kitti.org), <sup>2</sup>[SemanticKITTI-API](https://github.com/PRBonn/semantic-kitti-api), <sup>3</sup>[nuScenes](https://www.nuscenes.org/nuscenes), <sup>4</sup>[nuScenes-devkit](https://github.com/nutonomy/nuscenes-devkit), <sup>5</sup>[ScribbleKITTI](https://github.com/ouenal/scribblekitti), <sup>6</sup>[SemanticPOSS](http://www.poss.pku.edu.cn/semanticposs.html), <sup>7</sup>[SemanticPOSS-API](https://github.com/Theia-4869/semantic-poss-api), <sup>8</sup>[Robo3D](https://github.com/ldkong1205/Robo3D), <sup>9</sup>[PCSeg](https://github.com/PJLab-ADG/PCSeg), <sup>10</sup>[SalsaNext](https://github.com/TiagoCortinhal/SalsaNext), <sup>11</sup>[FIDNet](https://github.com/placeforyiming/IROS21-FIDNet-SemanticKITTI), <sup>12</sup>[CENet](https://github.com/huixiancheng/CENet), <sup>13</sup>[RangeViT](https://github.com/valeoai/rangevit), <sup>14</sup>[SphereFormer](https://github.com/dvlab-research/SphereFormer), <sup>15</sup>[2DPASS](https://github.com/yanx27/2DPASS), <sup>16</sup>[Cylinder3D](https://github.com/xinge008/Cylinder3D), <sup>17</sup>[SPVNAS](https://github.com/mit-han-lab/spvnas), <sup>18</sup>[KPConv](https://github.com/HuguesTHOMAS/KPConv-PyTorch), and <sup>19</sup>[LaserMix](https://github.com/ldkong1205/LaserMix). :heart_decoration:
 
-## Citation
-
-If you find this work helpful, please kindly consider citing our paper:
-
-```latex
-
-```
