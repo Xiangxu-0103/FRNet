@@ -9,15 +9,16 @@
     <h2><strong>FRNet: Frustum-Range Networks for Scalable LiDAR Segmentation</strong></h2>
 </div>
 
+
 <div align="center">
-    <a href="https://scholar.google.com/citations?user=1UHZkksAAAAJ&hl" target='_blank'>Xiang Xu</a><sup>1</sup>,&nbsp;
-    <a href="https://scholar.google.com/citations?user=-j1j7TkAAAAJ" target='_blank'>Lingdong Kong</a><sup>2</sup>,&nbsp;
-    <a href="https://scholar.google.com/citations?user=zG3rgUcAAAAJ&hl" target='_blank'>Hui Shuai</a><sup>3</sup>,&nbsp;
-    <a href="https://scholar.google.com/citations?user=2Pyf20IAAAAJ&hl" target='_blank'>Qingshan Liu</a><sup>3</sup>,&nbsp;
-    <br>
+    <a href="https://scholar.google.com/citations?user=1UHZkksAAAAJ&hl" target='_blank'>Xiang Xu</a><sup>1</sup>,&nbsp;&nbsp;
+    <a href="https://scholar.google.com/citations?user=-j1j7TkAAAAJ" target='_blank'>Lingdong Kong</a><sup>2</sup>,&nbsp;&nbsp;
+    <a href="https://scholar.google.com/citations?user=zG3rgUcAAAAJ&hl" target='_blank'>Hui Shuai</a><sup>3</sup>,&nbsp;&nbsp;
+    <a href="https://scholar.google.com/citations?user=2Pyf20IAAAAJ&hl" target='_blank'>Qingshan Liu</a><sup>3</sup>
+    </br>
     <sup>1</sup>Nanjing University of Aeronautics and Astronautics&nbsp;&nbsp;&nbsp;
     <sup>2</sup>National University of Singapore&nbsp;&nbsp;&nbsp;
-    <br>
+    </br>
     <sup>3</sup>Nanjing University of Posts and Telecommunications&nbsp;&nbsp;&nbsp;
 </div>
 
@@ -45,8 +46,9 @@
 
 **FRNet** is a simple yet efficient network for LiDAR segmentation. It consists of three key components: 1) Frustum Feature Encoder; 2) Frustum-Point Fusion Module; and 3) Head Fusion Module. Moreover, we introduce two novel argumentations, FrustumMix and RangeInterpolation, to enrich the point cloud scenes. FRNet achieves an appealing balance between accuracy and efficiency.
 
-
-
+| <img src="docs/figs/teaser1.png" align="center" width="99%"> | <img src="docs/figs/teaser2.png" align="center" width="99%"> |
+| :-----------------------------------------: | :-----------------------------------------: |
+| Speed *vs.* Accuracy | Speed *vs.* Robustness |
 
 ## Updates
 
@@ -83,13 +85,13 @@ Please refer to [DATA_PREPARE.md](./docs/DATA_PREPARE.md) for the details to pre
 
 ## Getting Started
 
-Please refer to [GET_STARTED.md](./docs/GET_STARTED.md) to learn more usage about this codebase.
+Please refer to [GET_STARTED.md](./docs/GET_STARTED.md) to learn more usage of this codebase.
 
 ## Main Results
 
 ### Framework Overview
 
-|<img src="docs/figs/framework.png" align="center" width="99.9%">|
+|<img src="docs/figs/framework.png" align="center" width="99%">|
 |:-:|
 
 
@@ -219,6 +221,9 @@ This work is under the [Apache 2.0 license](LICENSE).
 ## Acknowledgement
 
 This work is developed based on the [MMDetection3D](https://github.com/open-mmlab/mmdetection3d) codebase.
+><img src="https://github.com/open-mmlab/mmdetection3d/blob/main/resources/mmdet3d-logo.png" width="30%"/><br>
+> MMDetection3D is an open-source object detection toolbox based on PyTorch, towards the next-generation platform for general 3D perception. It is a part of the OpenMMLab project developed by MMLab.
+
 
 We acknowledge the use of the following public resources during the course of this work: <sup>1</sup>[SemanticKITTI](http://www.semantic-kitti.org), <sup>2</sup>[SemanticKITTI-API](https://github.com/PRBonn/semantic-kitti-api), <sup>3</sup>[nuScenes](https://www.nuscenes.org/nuscenes), <sup>4</sup>[nuScenes-devkit](https://github.com/nutonomy/nuscenes-devkit), <sup>5</sup>[ScribbleKITTI](https://github.com/ouenal/scribblekitti), <sup>6</sup>[SemanticPOSS](http://www.poss.pku.edu.cn/semanticposs.html), <sup>7</sup>[SemanticPOSS-API](https://github.com/Theia-4869/semantic-poss-api), <sup>8</sup>[Robo3D](https://github.com/ldkong1205/Robo3D), <sup>9</sup>[PCSeg](https://github.com/PJLab-ADG/PCSeg), <sup>10</sup>[SalsaNext](https://github.com/TiagoCortinhal/SalsaNext), <sup>11</sup>[FIDNet](https://github.com/placeforyiming/IROS21-FIDNet-SemanticKITTI), <sup>12</sup>[CENet](https://github.com/huixiancheng/CENet), <sup>13</sup>[RangeViT](https://github.com/valeoai/rangevit), <sup>14</sup>[SphereFormer](https://github.com/dvlab-research/SphereFormer), <sup>15</sup>[2DPASS](https://github.com/yanx27/2DPASS), <sup>16</sup>[Cylinder3D](https://github.com/xinge008/Cylinder3D), <sup>17</sup>[SPVNAS](https://github.com/mit-han-lab/spvnas), <sup>18</sup>[KPConv](https://github.com/HuguesTHOMAS/KPConv-PyTorch), and <sup>19</sup>[LaserMix](https://github.com/ldkong1205/LaserMix).
 
