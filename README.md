@@ -1,7 +1,7 @@
 <p align="right">English | <a href="./README_CN.md">简体中文</a></p>  
 
 <p align="center">
-  <img src="docs/figs/logo.png" align="center" width="25%">
+  <img src="docs/figs/logo.png" align="center" width="28%">
     
 </p>  
   
@@ -43,7 +43,10 @@
 
 ## About
 
-**FRNet** is a simple yet efficient network for LiDAR segmentation. It consists of three key components: 1) Frustum Feature Encoder; 2) Frustum-Point Fusion Module; 3) Head Fusion Module. Moreover, we introduce two novel argumentations, FrustumMix and RangeInterpolation, to enrich the scene of point clouds. It achieves an appealing balance between accuracy and efficiency.
+**FRNet** is a simple yet efficient network for LiDAR segmentation. It consists of three key components: 1) Frustum Feature Encoder; 2) Frustum-Point Fusion Module; and 3) Head Fusion Module. Moreover, we introduce two novel argumentations, FrustumMix and RangeInterpolation, to enrich the point cloud scenes. FRNet achieves an appealing balance between accuracy and efficiency.
+
+
+
 
 ## Updates
 
@@ -86,9 +89,9 @@ Please refer to [GET_STARTED.md](./docs/GET_STARTED.md) to learn more usage abou
 
 ### Framework Overview
 
-<div align="center">
-    <img src="docs/figs/framework.png" align="center" width="99.9%">
-</div>
+|<img src="docs/figs/framework.png" align="center" width="99.9%">|
+|:-:|
+
 
 ### Comparisons to State of the Arts
 
@@ -140,8 +143,6 @@ Please refer to [GET_STARTED.md](./docs/GET_STARTED.md) to learn more usage abou
         <td>53.5</td> <td>68.1</td>
     </tr>
 </table>
-
-We also provide the trained models for SemanticKITTI and nuScenes. The checkpoints can be downloaded [here](https://drive.google.com/drive/folders/173ZIzO7HOSE2JQ7lz_Ikk4O85Mau68el?usp=sharing).
 
 ### Label-Efficient LiDAR Segmentation
 
@@ -201,14 +202,19 @@ We also provide the trained models for SemanticKITTI and nuScenes. The checkpoin
     </tr>
 </table>
 
-**Note**:
-
+**:memo: Note**:
 - **mCE (the lower the better)**: The *average corruption error* (in percentage) of a candidate model compared to the baseline model, which is calculated among all corruption types across three severity levels.
 - **mRR (the higher the better)**: The *average resilience rate* (in percentage) of a candidate model compared to its "clean" performance, which is calculated among all corruption types across three severity levels.
+
+### Pre-trained Checkpoints
+We provide the trained models for SemanticKITTI and nuScenes. The checkpoints can be downloaded from [here](https://drive.google.com/drive/folders/173ZIzO7HOSE2JQ7lz_Ikk4O85Mau68el?usp=sharing).
+
+
 
 ## License
 
 This work is under the [Apache 2.0 license](LICENSE).
+
 
 ## Acknowledgement
 
