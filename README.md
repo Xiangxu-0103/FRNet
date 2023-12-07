@@ -1,3 +1,10 @@
+<p align="right">English | <a href="./README_CN.md">简体中文</a></p>  
+
+<p align="center">
+  <img src="docs/figs/logo.png" align="center" width="25%">
+    
+</p>  
+  
 <div align="center">
     <h2><strong>FRNet: Frustum-Range Networks for Scalable LiDAR Segmentation</strong></h2>
 </div>
@@ -14,40 +21,58 @@
     <sup>3</sup>Nanjing University of Posts and Telecommunications&nbsp;&nbsp;&nbsp;
 </div>
 
+</br>
+
 <div align="center">
     <a href="" target="_blank">
-        <img src="https://img.shields.io/badge/Paper-%F0%9F%93%83-yellow">
+        <img src="https://img.shields.io/badge/Paper-%F0%9F%93%83-purple">
     </a>
     <a href="" target='_blank'>
-        <img src="https://img.shields.io/badge/Project-%F0%9F%94%97-lightblue">
+        <img src="https://img.shields.io/badge/Project-%F0%9F%94%97-violet">
     </a>
     <a href="https://youtu.be/PvmnaMKnZrc" target='_blank'>
-        <img src="https://img.shields.io/badge/Demo-%F0%9F%8E%AC-yellow">
+        <img src="https://img.shields.io/badge/Demo-%F0%9F%8E%AC-purple">
+    </a>
+    <a href="" target='_blank'>
+        <img src="https://img.shields.io/badge/%E4%B8%AD%E8%AF%91%E7%89%88-%F0%9F%90%BC-violet">
+    </a>
+    <a href="" target='_blank'>
+        <img src="https://visitor-badge.laobi.icu/badge?page_id=Xiangxu-0103.FRNet&left_color=gray&right_color=purple">
     </a>
 </div>
 
 ## About
 
-**FRNet** is a simple yet efficient network for LiDAR segmentation. It compries three components: 1) Frustum Feature Encoder; 2) Frustum-Point Fusion Module; 3) Head Fusion Module. Moreover, we introduce two novel argumentations, FrustumMix and RangeInterpolation, to enrich the scene of point clouds. It achieves great balance between accuracy and efficiency.
+**FRNet** is a simple yet efficient network for LiDAR segmentation. It consists of three key components: 1) Frustum Feature Encoder; 2) Frustum-Point Fusion Module; 3) Head Fusion Module. Moreover, we introduce two novel argumentations, FrustumMix and RangeInterpolation, to enrich the scene of point clouds. It achieves an appealing balance between accuracy and efficiency.
 
 ## Updates
 
 - \[2023.12\] - Our paper is available on [arXiv](<>), and the code is publicly available.
+
+
+## Video Demo
+
+|                   Demo 1                    |                   Demo 2                    |                   Demo 3                    |
+| :-----------------------------------------: | :-----------------------------------------: | :-----------------------------------------: |
+| [![link](<docs/figs/demo1.png>)](https://youtu.be/PvmnaMKnZrc) | [![link](<docs/figs/demo2.png>)](https://youtu.be/4m5sG-XsYgw) | [![link](<docs/figs/demo3.png>)](https://youtu.be/-aM_NaZLP8M) |
+
 
 ## Outline
 
 - [Installation](#installation)
 - [Data Preparation](#data-preparation)
 - [Getting Started](#getting-started)
-- [Video Demo](#video-demo)
 - [Main Results](#main-results)
 - [License](#license)
 - [Acknowledgement](#acknowledgement)
 - [Citation](#citation)
 
+
+
 ## Installation
 
 Please refer to [INSTALL.md](./docs/INSTALL.md) for the installation details.
+
 
 ## Data Preparation
 
@@ -56,12 +81,6 @@ Please refer to [DATA_PREPARE.md](./docs/DATA_PREPARE.md) for the details to pre
 ## Getting Started
 
 Please refer to [GET_STARTED.md](./docs/GET_STARTED.md) to learn more usage about this codebase.
-
-## Video Demo
-
-|                   Demo 1                    |                   Demo 2                    |                   Demo 3                    |
-| :-----------------------------------------: | :-----------------------------------------: | :-----------------------------------------: |
-| [![link](<>)](https://youtu.be/PvmnaMKnZrc) | [![link](<>)](https://youtu.be/4m5sG-XsYgw) | [![link](<>)](https://youtu.be/-aM_NaZLP8M) |
 
 ## Main Results
 
