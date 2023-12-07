@@ -1,7 +1,7 @@
 <p align="right">English | <a href="./README_CN.md">简体中文</a></p>  
 
 <p align="center">
-  <img src="docs/figs/logo.png" align="center" width="35%">
+  <img src="docs/figs/logo.png" align="center" width="36%">
     
 </p>  
   
@@ -65,7 +65,8 @@ Visit our [project page](https://xiangxu-0103.github.io/FRNet) to explore more e
 
 |                   Demo 1                    |                   Demo 2                    |                   Demo 3                    |
 | :-----------------------------------------: | :-----------------------------------------: | :-----------------------------------------: |
-| [![link](<docs/figs/demo1.png>)](https://youtu.be/PvmnaMKnZrc) | [![link](<docs/figs/demo2.png>)](https://youtu.be/4m5sG-XsYgw) | [![link](<docs/figs/demo3.png>)](https://youtu.be/-aM_NaZLP8M) |
+| <img src="docs/figs/demo1.png" align="center" width="100%"> | <img src="docs/figs/demo2.png" align="center" width="100%"> | <img src="docs/figs/demo3.png" align="center" width="100%"> | 
+| [[Link](https://youtu.be/PvmnaMKnZrc)] | [[Link](https://youtu.be/4m5sG-XsYgw)] | [[Link](https://youtu.be/-aM_NaZLP8M)] |
 
 
 ## Outline
