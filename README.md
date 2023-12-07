@@ -9,19 +9,26 @@
     <a href="https://scholar.google.com/citations?user=2Pyf20IAAAAJ&hl" target='_blank'>Qingshan Liu</a><sup>3</sup>,&nbsp;
     <br>
     <sup>1</sup>Nanjing University of Aeronautics and Astronautics&nbsp;&nbsp;&nbsp;
-    <sup>1</sup>National University of Singapore&nbsp;&nbsp;&nbsp;
-    <sup>1</sup>Nanjing University of Posts and Telecommunications&nbsp;&nbsp;&nbsp;
+    <sup>2</sup>National University of Singapore&nbsp;&nbsp;&nbsp;
+    <br>
+    <sup>3</sup>Nanjing University of Posts and Telecommunications&nbsp;&nbsp;&nbsp;
 </div>
 
 <div align="center">
     <a href="" target="_blank">
-        <img src="https://img.shields.io/badge/Paper-%F0%9F%93%83-red">
+        <img src="https://img.shields.io/badge/Paper-%F0%9F%93%83-yellow">
+    </a>
+    <a href="" target='_blank'>
+        <img src="https://img.shields.io/badge/Project-%F0%9F%94%97-lightblue">
+    </a>
+    <a href="https://youtu.be/PvmnaMKnZrc" target='_blank'>
+        <img src="https://img.shields.io/badge/Demo-%F0%9F%8E%AC-yellow">
     </a>
 </div>
 
 ## About
 
-**FRNet** is a simple yet efficient network for LiDAR segmentation. It compries three components: 1) Frustum Feature Encoder; 2) Frustum-Point Fusion Module; 3) Head Fusion Module. Moreover, we introduce two novel argument methods FrustumMix and RangeInterpolation to enrich the scene of point clouds. It achieves great balane between accuracy and efficiency.
+**FRNet** is a simple yet efficient network for LiDAR segmentation. It compries three components: 1) Frustum Feature Encoder; 2) Frustum-Point Fusion Module; 3) Head Fusion Module. Moreover, we introduce two novel argumentations, FrustumMix and RangeInterpolation, to enrich the scene of point clouds. It achieves great balance between accuracy and efficiency.
 
 ## Updates
 
@@ -52,9 +59,9 @@ Please refer to [GET_STARTED.md](./docs/GET_STARTED.md) to learn more usage abou
 
 ## Video Demo
 
-|      Demo 1       |      Demo 2       |      Demo 3       |
-| :---------------: | :---------------: | :---------------: |
-| [![link](<>)](<>) | [![link](<>)](<>) | [![link](<>)](<>) |
+|                   Demo 1                    |                   Demo 2                    |                   Demo 3                    |
+| :-----------------------------------------: | :-----------------------------------------: | :-----------------------------------------: |
+| [![link](<>)](https://youtu.be/PvmnaMKnZrc) | [![link](<>)](https://youtu.be/4m5sG-XsYgw) | [![link](<>)](https://youtu.be/-aM_NaZLP8M) |
 
 ## Main Results
 
@@ -115,7 +122,7 @@ Please refer to [GET_STARTED.md](./docs/GET_STARTED.md) to learn more usage abou
     </tr>
 </table>
 
-We also provide the trained models for SemanticKITTI and nuScenes, and the checkpoint can be downloaded [here](<>).
+We also provide the trained models for SemanticKITTI and nuScenes. The checkpoints can be downloaded [here](https://drive.google.com/drive/folders/173ZIzO7HOSE2JQ7lz_Ikk4O85Mau68el?usp=sharing).
 
 ### Label-Efficient LiDAR Segmentation
 
