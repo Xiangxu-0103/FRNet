@@ -46,11 +46,11 @@
 
 **FRNet** achieves an appealing balance between accuracy and efficiency, enabling real-time LiDAR segmentation.
 
-| <img src="docs/figs/teaser1.png" align="center" width="99%"> | <img src="docs/figs/teaser2.png" align="center" width="99%"> |
+| <img src="docs/figs/teaser1.png" align="center" width="91%"> | <img src="docs/figs/teaser2.png" align="center" width="89%"> |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |                     Speed *vs.* Accuracy                     |                    Speed *vs.* Robustness                    |
 
-Visit our [project page](https://xiangxu-0103.github.io/FRNet) to explore more examples. :oncoming_automobile:
+Visit our [project page](https://xiangxu-0103.github.io/FRNet) to explore more examples. :car:
 
 ## Updates
 
@@ -62,7 +62,7 @@ Visit our [project page](https://xiangxu-0103.github.io/FRNet) to explore more e
 |                           Demo 1                            |                           Demo 2                            |                           Demo 3                            |
 | :---------------------------------------------------------: | :---------------------------------------------------------: | :---------------------------------------------------------: |
 | <img src="docs/figs/demo1.png" align="center" width="100%"> | <img src="docs/figs/demo2.png" align="center" width="100%"> | <img src="docs/figs/demo3.png" align="center" width="100%"> |
-|          \[[Link](https://youtu.be/PvmnaMKnZrc)\]           |          \[[Link](https://youtu.be/4m5sG-XsYgw)\]           |          \[[Link](https://youtu.be/-aM_NaZLP8M)\]           |
+|          [\[Link\]](https://youtu.be/PvmnaMKnZrc)          |          [\[Link\]](https://youtu.be/4m5sG-XsYgw)           |          [\[Link\]](https://youtu.be/-aM_NaZLP8M)           |
 
 ## Outline
 
