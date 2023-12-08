@@ -221,8 +221,8 @@ If you find this work helpful, please kindly consider citing our paper:
 
 ```bibtex
 @article{xu2023frnet,
-    author = {Xiang Xu and Lingdong Kong and Hui Shuai and Qingshan Liu},
     title = {FRNet: Frustum-Range Networks for Scalable LiDAR Segmentation},
+    author = {Xu, Xiang and Kong, Lingdong and Shuai, Hui and Liu, Qingshan},
     journal = {arXiv preprint arXiv:2312.04484},
     year = {2023}
 }
