@@ -9,10 +9,10 @@
 </div>
 
 <div align="center">
-    <a href="https://scholar.google.com/citations?user=1UHZkksAAAAJ&hl" target='_blank'>许翔</a><sup>1</sup>,&nbsp;&nbsp;
+    <a href="https://scholar.google.com/citations?user=1UHZkksAAAAJ" target='_blank'>许翔</a><sup>1</sup>,&nbsp;&nbsp;
     <a href="https://scholar.google.com/citations?user=-j1j7TkAAAAJ" target='_blank'>孔令东</a><sup>2</sup>,&nbsp;&nbsp;
-    <a href="https://scholar.google.com/citations?user=zG3rgUcAAAAJ&hl" target='_blank'>帅惠</a><sup>3</sup>,&nbsp;&nbsp;
-    <a href="https://scholar.google.com/citations?user=2Pyf20IAAAAJ&hl" target='_blank'>刘青山</a><sup>3</sup>
+    <a href="https://scholar.google.com/citations?user=zG3rgUcAAAAJ" target='_blank'>帅惠</a><sup>3</sup>,&nbsp;&nbsp;
+    <a href="https://scholar.google.com/citations?user=2Pyf20IAAAAJ" target='_blank'>刘青山</a><sup>3</sup>
     </br>
     <sup>1</sup>南京航空航天大学&nbsp;&nbsp;&nbsp;
     <sup>2</sup>新加坡国立大学&nbsp;&nbsp;&nbsp;
