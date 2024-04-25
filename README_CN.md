@@ -53,6 +53,7 @@
 
 ## 更新
 
+- \[2024.04\] - 我们进一步优化了论文以及部分代码。
 - \[2023.12\] - 我们提供了在 SemanticKITTI 以及 nuScenes 上的训练权重。权重文件可以在[此处](https://drive.google.com/drive/folders/173ZIzO7HOSE2JQ7lz_Ikk4O85Mau68el?usp=sharing)下载。
 - \[2023.12\] - 我们的论文在[arXiv](https://arxiv.org/abs/2312.04484)上发布，并公开我们的代码。
 

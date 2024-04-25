@@ -54,6 +54,7 @@ Visit our [project page](https://xiangxu-0103.github.io/FRNet) to explore more e
 
 ## Updates
 
+- \[2024.04\] - We have further improved our manuscript and code.
 - \[2023.12\] - We provide trained weights on SemanticKITTI and nuScenes. The checkpoints can be downloaded from [here](https://drive.google.com/drive/folders/173ZIzO7HOSE2JQ7lz_Ikk4O85Mau68el?usp=sharing).
 - \[2023.12\] - Our paper is available on [arXiv](https://arxiv.org/abs/2312.04484), and the code is publicly available.
 

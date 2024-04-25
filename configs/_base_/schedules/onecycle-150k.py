@@ -7,17 +7,17 @@ optim_wrapper = dict(
 param_scheduler = [
     dict(
         type='OneCycleLR',
-        total_steps=50,
-        by_epoch=True,
+        total_steps=150000,
+        by_epoch=False,
         eta_max=lr,
         pct_start=0.2,
         div_factor=25.0,
-        final_div_factor=100.0,
-        convert_to_iter_based=True)
+        final_div_factor=100.0)
 ]
 
-train_cfg = dict(by_epoch=True, max_epochs=50, val_interval=1)
+train_cfg = dict(
+    type='IterBasedTrainLoop', max_iters=150000, val_interval=1500)
 val_cfg = dict()
 test_cfg = dict()
 
-auto_scale_lr = dict(enable=False, base_batch_size=4)
+auto_scale_lr = dict(enable=False, base_batch_size=16)

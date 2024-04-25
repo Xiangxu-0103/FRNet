@@ -7,7 +7,7 @@ model = dict(
         feat_channels=(64, 128, 256, 256),
         with_distance=True,
         with_cluster_center=True,
-        norm_cfg=dict(type='naiveSyncBN1d', eps=1e-3, momentum=0.01),
+        norm_cfg=dict(type='SyncBN', eps=1e-3, momentum=0.01),
         with_pre_norm=True,
         feat_compression=16),
     backbone=dict(
@@ -21,14 +21,14 @@ model = dict(
         strides=(1, 2, 2, 2),
         dilations=(1, 1, 1, 1),
         fuse_channels=(256, 128),
-        norm_cfg=dict(type='naiveSyncBN2d', eps=1e-3, momentum=0.01),
-        point_norm_cfg=dict(type='naiveSyncBN1d', eps=1e-3, momentum=0.01),
+        norm_cfg=dict(type='SyncBN', eps=1e-3, momentum=0.01),
+        point_norm_cfg=dict(type='SyncBN', eps=1e-3, momentum=0.01),
         act_cfg=dict(type='HSwish', inplace=True)),
     decode_head=dict(
         type='FRHead',
         in_channels=128,
         middle_channels=(128, 256, 128, 64),
-        norm_cfg=dict(type='naiveSyncBN1d', eps=1e-3, momentum=0.01),
+        norm_cfg=dict(type='SyncBN', eps=1e-3, momentum=0.01),
         channels=64,
         dropout_ratio=0,
         loss_ce=dict(

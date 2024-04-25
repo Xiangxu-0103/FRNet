@@ -1,6 +1,6 @@
 _base_ = [
     '../_base_/datasets/semantickitti_seg.py', '../_base_/models/frnet.py',
-    '../_base_/schedules/onecycle-50e.py', '../_base_/default_runtime.py'
+    '../_base_/schedules/onecycle-50k.py', '../_base_/default_runtime.py'
 ]
 custom_imports = dict(
     imports=['frnet.datasets', 'frnet.datasets.transforms', 'frnet.models'],

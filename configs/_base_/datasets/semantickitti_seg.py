@@ -81,7 +81,6 @@ pre_transform = [
         dataset_type='semantickitti',
         backend_args=backend_args),
     dict(type='PointSegClassMapping'),
-    dict(type='PointSample', num_points=0.9),
     dict(
         type='RandomFlip3D',
         sync_2d=False,
@@ -111,7 +110,6 @@ train_pipeline = [
         dataset_type='semantickitti',
         backend_args=backend_args),
     dict(type='PointSegClassMapping'),
-    dict(type='PointSample', num_points=0.9),
     dict(
         type='RandomFlip3D',
         sync_2d=False,
@@ -235,10 +233,10 @@ tta_pipeline = [
 ]
 
 train_dataloader = dict(
-    batch_size=1,
+    batch_size=4,
     num_workers=4,
     persistent_workers=True,
-    sampler=dict(type='DefaultSampler', shuffle=True),
+    sampler=dict(type='InfiniteSampler', shuffle=True),
     dataset=dict(
         type=dataset_type,
         data_root=data_root,

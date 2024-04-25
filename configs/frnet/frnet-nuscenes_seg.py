@@ -1,6 +1,6 @@
 _base_ = [
     '../_base_/datasets/nuscenes_seg.py', '../_base_/models/frnet.py',
-    '../_base_/schedules/onecycle-80e.py', '../_base_/default_runtime.py'
+    '../_base_/schedules/onecycle-150k.py', '../_base_/default_runtime.py'
 ]
 custom_imports = dict(
     imports=['frnet.datasets', 'frnet.datasets.transforms', 'frnet.models'],
