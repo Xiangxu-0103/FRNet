@@ -54,6 +54,7 @@ Visit our [project page](https://xiangxu-0103.github.io/FRNet) to explore more e
 
 ## Updates
 
+- \[2025.02\] - Our paper was accepted by [TIP](https://ieeexplore-dev.ieee.org/xpl/mostRecentIssue.jsp?punumber=83).
 - \[2024.04\] - We have further improved our manuscript and code.
 - \[2023.12\] - We provide trained weights on SemanticKITTI and nuScenes. The checkpoints can be downloaded from [here](https://drive.google.com/drive/folders/173ZIzO7HOSE2JQ7lz_Ikk4O85Mau68el?usp=sharing).
 - \[2023.12\] - Our paper is available on [arXiv](https://arxiv.org/abs/2312.04484), and the code is publicly available.
@@ -221,11 +222,11 @@ This work is under the [Apache 2.0 license](LICENSE).
 If you find this work helpful, please kindly consider citing our paper:
 
 ```bibtex
-@article{xu2023frnet,
+@article{xu2025frnet,
     title = {FRNet: Frustum-Range Networks for Scalable LiDAR Segmentation},
     author = {Xu, Xiang and Kong, Lingdong and Shuai, Hui and Liu, Qingshan},
-    journal = {arXiv preprint arXiv:2312.04484},
-    year = {2023}
+    journal = {IEEE Transactions on Image Processing},
+    year = {2025}
 }
 ```
 
