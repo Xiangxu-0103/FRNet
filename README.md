@@ -227,7 +227,7 @@ If you find this work helpful, please kindly consider citing our paper:
     author = {Xu, Xiang and Kong, Lingdong and Shuai, Hui and Liu, Qingshan},
     journal = {IEEE Transactions on Image Processing},
     volume = {34},
-    pages = {2173--2186}
+    pages = {2173--2186},
     year = {2025}
 }
 ```
